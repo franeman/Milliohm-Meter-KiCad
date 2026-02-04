@@ -1,0 +1,1552 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f8619839-2e4a-4ea0-8160-9e5744743c2b")
+	(paper "A4")
+	(title_block
+		(rev "${REVISION}")
+	)
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09365699-2386-43dd-b138-fc9bd64d9c4c")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acb6cb1-5a80-4513-9404-67640d58f964")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188819f7-8d5d-4da4-a989-834ad599f3d2")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2451762e-ce68-483f-8a76-2a31031dab11")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291cdee9-5717-4829-9a57-851c5ab26fee")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3041e0cf-ca2a-4799-9dc7-762341a476b2")
+	)
+	(wire
+		(pts
+			(xy 85.09 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d02bbf-fc88-425e-a9bc-1d53b5c5c46c")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5609053e-7076-4e22-9fe0-a8523678dd77")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5834e86b-c9ae-4fbe-9918-018cff8d307d")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a26021b-8ec0-4b75-b243-b64717cfa043")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b21eec0-ab92-421b-a46a-051b39d7e1fa")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3248e1-397f-4078-b550-e006c4e1098d")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c06e72-f27e-4924-845e-5fdaa3d884f4")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db62d67-b511-4db5-9e00-6edde85ff1fb")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02a73de-e517-43d7-a458-049b6a6bcbf7")
+	)
+	(wire
+		(pts
+			(xy 85.09 92.71) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39e46e4-0905-4427-b36b-b515bf14e2b6")
+	)
+	(wire
+		(pts
+			(xy 85.09 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace2d919-e303-4eec-be8f-c94677fe3c38")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4286352-f454-404a-a02e-a4edfbd92a2b")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f933f3-a989-4d29-8c08-4876dad5104e")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d581b1d4-b218-43d5-aec3-3e16a1efbf97")
+	)
+	(wire
+		(pts
+			(xy 85.09 100.33) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee73e455-a902-40a5-8d81-1c7f30bd6521")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0209dc4-4848-4164-991a-e945f5f69fc5")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26f1a0c-c33f-4bfe-8b06-8b3df16f7906")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f354e2b1-cbac-4c46-9652-649d62cd5459")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcde06bb-fa3d-4987-9df1-f8a301c9b07f")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 81.28 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39fbb4d6-286d-4f2b-a237-57f3de31bcc1")
+		(property "Reference" "#PWR05"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df090efd-0ab4-40e8-bd0e-0362c8a611af")
+		)
+		(instances
+			(project ""
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e801ae-97b1-4f3d-bb58-a91dd3142a69")
+		(property "Reference" "H8"
+			(at 269.24 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 266.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 266.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 254 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d20502a-3cae-4f7a-92e5-a1cb52f6eaf1")
+		(property "Reference" "FID2"
+			(at 256.54 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 256.54 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8221241e-829e-4dba-a28a-ef0b11434f46")
+		(property "Reference" "FID1"
+			(at 243.84 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98ed4cfa-ee11-4f2d-b532-b55e4dd62143")
+		(property "Reference" "H5"
+			(at 243.84 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 241.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d04ded2f-7817-4260-b1e8-31ec2d6b7edf")
+		(property "Reference" "H6"
+			(at 269.24 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 266.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19a8018-88ef-43f9-abf0-3069194114a8")
+		(property "Reference" "FID3"
+			(at 269.24 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 269.24 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4785ca6-6ecc-4305-9089-6bb100c2bf99")
+		(property "Reference" "H7"
+			(at 243.84 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 67.31)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0fd4382c-ad02-4848-b033-48bad8ef3e5c")
+		(property "Sheetname" "Power"
+			(at 63.5 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 63.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 76.2 69.85 0)
+			(uuid "2653982e-25c1-46f3-a7ed-f849cc9d6472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_VOUT" output
+			(at 76.2 73.66 0)
+			(uuid "61f4c0dc-19d6-49bf-a18f-d16697fa0651")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "364738af-23a9-46f9-9b40-51fe4e81b2f4")
+		(property "Sheetname" "Display"
+			(at 190.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 190.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 190.5 78.74 180)
+			(uuid "1107d682-195e-48bb-81ee-456c7fc5ceee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 190.5 82.55 180)
+			(uuid "c64e7da8-5755-4cb9-82a6-688f24bf99ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 76.2)
+		(size 25.4 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78029e94-9b05-44aa-b349-b48f85acc2b6")
+		(property "Sheetname" "MCU"
+			(at 152.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 152.4 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN0" input
+			(at 152.4 78.74 180)
+			(uuid "934faae4-b561-4225-a008-763999a5992d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN1" input
+			(at 152.4 82.55 180)
+			(uuid "3d7f0a4c-8401-42ef-ba6d-68eabdfd0b09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN2" input
+			(at 152.4 92.71 180)
+			(uuid "5462adce-554e-4ad5-b40d-353be30c28ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 177.8 78.74 0)
+			(uuid "fe4f50c3-6b4a-4f34-b077-e88233459f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 177.8 82.55 0)
+			(uuid "69a39dcd-632f-4135-8431-fefd06cd760e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_IN3" input
+			(at 152.4 99.06 180)
+			(uuid "f6cfb43c-a2f1-47e7-baed-84552e9c4abe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 88.9)
+		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90de54ba-d9a0-4c56-9b67-8781d3044d25")
+		(property "Sheetname" "Amplifier"
+			(at 127 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_1" output
+			(at 142.24 92.71 0)
+			(uuid "e658b5e1-bff8-41ee-825a-38190e2551b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_1+" input
+			(at 127 91.44 180)
+			(uuid "8153e5e7-b560-4ef8-a2a6-be84f8731625")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_1-" input
+			(at 127 93.98 180)
+			(uuid "56bbd604-58aa-4805-848d-8eb98d0d47ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_2+" input
+			(at 127 97.79 180)
+			(uuid "fa0c46ae-2f14-4691-a78e-43cb2f8b3ffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_2" output
+			(at 142.24 99.06 0)
+			(uuid "f2123659-00b2-4e02-af33-b9c93c7145b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_2-" input
+			(at 127 100.33 180)
+			(uuid "47ea27be-6948-4ee3-96c9-eef285d52e55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 21.59 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c62bcd15-5fc6-415a-bc03-d2afd8224d92")
+		(property "Sheetname" "Current Source"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current Source.kicad_sch"
+			(at 63.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I_OUT" output
+			(at 85.09 100.33 0)
+			(uuid "eb0b5f28-9f90-49ed-a983-2dd1e2f97cb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_OUT" output
+			(at 85.09 92.71 0)
+			(uuid "80b4448e-0d16-4dae-b38f-6892b4e7e7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_R_OUT+" output
+			(at 85.09 109.22 0)
+			(uuid "efac7ee1-f50a-4f89-a4de-8724efa588fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_R_OUT-" output
+			(at 85.09 111.76 0)
+			(uuid "2424e0d2-924c-4f63-83ad-052300c5df59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 96.52)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f26bf10b-9dc5-4a49-bd5e-fc39cc1e535f")
+		(property "Sheetname" "Kelvin Probe"
+			(at 88.9 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Kelvin Probe.kicad_sch"
+			(at 88.9 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I_IN" input
+			(at 88.9 100.33 180)
+			(uuid "5b4536db-4a27-42f2-86a5-ab24908b08b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_OUT+" output
+			(at 114.3 99.06 0)
+			(uuid "6749b154-7cb7-41f8-b991-3504f7b53b06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_OUT-" output
+			(at 114.3 101.6 0)
+			(uuid "2b076f9c-d31a-4e0b-b44b-a52c9c4723b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Milliohm Meter"
+				(path "/f8619839-2e4a-4ea0-8160-9e5744743c2b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

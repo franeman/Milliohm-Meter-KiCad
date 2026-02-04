@@ -1,0 +1,126 @@
+(footprint "SW-R3-1A-A-1-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SWITCH ROCKER SPST 6A 125V")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e91dda06-bf24-4777-b9f6-7f15539546e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4bc878f-71ba-4957-a69a-415d5404d13f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ef6024e-a794-4208-ab0a-840918ea98e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e43e2da-7be8-41f0-b431-c95042a20046")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.25 -7.5)
+		(end 5.25 7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f7ffaf4c-76f9-48b4-b3ed-26d632fc53de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3b1c58f8-75ce-458a-bbf5-e110758dab89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OFF"
+		(at -1.5 7.5 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "be7bc9a3-8dbc-419e-9533-da47605311e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "ON"
+		(at -1 -4.5 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "fa8c9aaa-9ca2-460d-81ca-5836134f3416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 5 1.7)
+		(drill oval 4 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "13b66069-b5a7-400e-9dc3-35ee77ea8ce7")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 5)
+		(size 5 1.7)
+		(drill oval 4 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e31a5030-a93f-4dcb-b842-04e94fc63fce")
+	)
+	(embedded_fonts no)
+)
