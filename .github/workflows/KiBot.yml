@@ -1,0 +1,39 @@
+# This is a basic workflow to help you get started with Actions
+
+name: KiBot
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "Generate"
+  Generate:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Update and install
+        run: |
+          apt-get update && apt-get upgrade
+          apt-get install -y docker
+
+      # Runs a set of commands using the runners shell
+      - name: KiBot Docker
+        run: |
+          docker run --rm -it -v .:/working_dir ghcr.io/inti-cmnb/kicad9_auto_full:dev_1.8.6-479f674_k9.0.6_d13.2_b4.2.4lts
+          kibot --quick-start
+
