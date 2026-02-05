@@ -33,7 +33,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: KiBot Docker
-        run: docker run --rm -v .:/working_dir -w /working_dir ghcr.io/inti-cmnb/kicad9_auto_full:dev_1.8.6-479f674_k9.0.6_d13.2_b4.2.4lts cd /working_dir && kibot --quick-start
+        run: docker run --rm -v .:/working_dir -w /working_dir ghcr.io/inti-cmnb/kicad9_auto_full:dev_1.8.6-479f674_k9.0.6_d13.2_b4.2.4lts kibot --quick-start
                   
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v6.0.0
