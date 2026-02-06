@@ -35,13 +35,22 @@ jobs:
       - name: KiBot Docker
         run: docker run --rm -v .:/working_dir -w /working_dir ghcr.io/inti-cmnb/kicad9_auto_full:dev_1.8.6-479f674_k9.0.6_d13.2_b4.2.4lts kibot --quick-start
                   
-      - name: Upload a Build Artifact
+      - name: Upload all generated files
         uses: actions/upload-artifact@v6.0.0
         with:
           # Artifact name
           name: KiBot Outputs
           # A file, directory or wildcard pattern that describes what to upload
           path: ./Generated
+
+      - name: Upload step file
+        uses: actions/upload-artifact@v6.0.0
+        with:
+          # Artifact name
+          name: Board Step
+          # A file, directory or wildcard pattern that describes what to upload
+          path: ./Generated/3D/*.step
+          compression-level: 0
 
                 
 
